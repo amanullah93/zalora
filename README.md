@@ -28,7 +28,9 @@ Please run below command to execute the code.
 
 python bitcoin.py >> output.txt
 
-Final report will be generated in statistics_report.csv file
+Final report will be generated in statistics_report.csv file in the same directory.
+Output files for successful trade with different days of interval will be generated under the directory 'bitcoin_output' in home path of any system.
+i.e., ~/bitcoin_output
 
 Overall runtime of the code including reading data directly using pandas is 13 minutes.
 Using different interval in number of days, successful trade count has been generated in the output file 'statistics_report.csv'
