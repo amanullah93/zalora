@@ -70,7 +70,7 @@ def transform_and_save_data(output_path):
 def main():
     input_file = 'https://storage.googleapis.com/zalora-interview-data/bitstampUSD_1-min_data_2012-01-01_to_2020-09-14.csv'
     read_input(input_file)
-    output_path = str(Path.joinpath(Path.home(), 'bitcoin_output', str(date)))
+    output_path = str(Path.joinpath(Path.home(), 'bitcoin_output'))
     create_output_directory(output_path)
     transform_and_save_data(output_path)
     generate_report()
